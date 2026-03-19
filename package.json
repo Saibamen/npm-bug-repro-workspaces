@@ -1,0 +1,15 @@
+{
+  "name": "test_npm",
+  "workspaces": [
+    "workspace_1"
+  ],
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "powershell -ExecutionPolicy Bypass -File ./clean-root-only.ps1",
+    "clean:all": "powershell -ExecutionPolicy Bypass -File ./clean-all.ps1"
+  },
+  "dependencies": {
+    "simplebar": "^6.3.3"
+  }
+}
