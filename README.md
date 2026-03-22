@@ -33,4 +33,4 @@ NPM issue: https://github.com/npm/cli/issues/9135
     `-- lodash@4.17.23
 ```
 
-See diff between first and second `npm install` in commit d9b902f.
+See diff between first and second `npm install` in commit [d9b902f](https://github.com/Saibamen/npm-bug-repro-workspaces/commit/d9b902ff86d40dbe676338438e9c94458064c045).
